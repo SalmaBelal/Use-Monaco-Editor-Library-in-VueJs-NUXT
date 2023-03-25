@@ -9,7 +9,7 @@ const modifiedText = ref("modified")
 </script>
 
 <template>
-    <div style="height:30vh">
+    <div style="height:50vh">
         <div ref="editor" style="height:100%; background-color: #90A4AE;">
             <monaco-diff :original="originalText" v-model="modifiedText" :height="height" :width="width" />
         </div>
